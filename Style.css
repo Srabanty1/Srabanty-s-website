@@ -14,7 +14,7 @@ h2{
 p{
     color:dimgray
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -27,7 +27,7 @@ p{
 }
 
 .half-width img{
-    width: 100%;
+    width: 75%;
 }
 
 .top-banner{
@@ -53,4 +53,28 @@ section{
     background-image: url("image/dearm-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:80%;
+}
+.Experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Customer-service{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#TAFE{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
